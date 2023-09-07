@@ -21,9 +21,7 @@ and then run script one more time
 ```
 ./ index.sh
 ```
-<br/>
-
-## OR run separatly
+### OR run separatly
 
 ### server
 `node ./server/index.js`
@@ -31,7 +29,12 @@ and then run script one more time
 ### client
 just open with browser `./client/index.html`
 
-<br/>
+# How to use
+1. Choose image in client
+2. Click `Upload` button
+3. Observe image link on client page and image info in server logs
+4. Open image link you got on client
+5. Observe uploaded image, which is now saved on server 
 
 # TODO
 - [ ] Rewrite client on React
